@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_active="true">
+        <shape android:shape="oval" android:dither="true" android:innerRadius="27dp">
+            <corners android:radius="16dp"/>
+            <solid android:color="#1566e0"/>
+        </shape>
+        <bitmap android:src="@drawable/ic_close_24" android:dither="true" android:gravity="center" android:antialias="true"/>
+    </item>
+    <item android:state_activated="true">
+        <shape android:shape="oval" android:dither="true" android:innerRadius="27dp">
+            <corners android:radius="16dp"/>
+            <solid android:color="#1566e0"/>
+        </shape>
+        <bitmap android:src="@drawable/ic_close_24" android:dither="true" android:gravity="center" android:antialias="true"/>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="oval" android:dither="true" android:innerRadius="27dp">
+            <corners android:radius="16dp"/>
+            <solid android:color="@color/medium_violet_red"/>
+        </shape>
+        <bitmap android:src="@drawable/ic_close_24" android:dither="true" android:gravity="center" android:antialias="true"/>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="oval" android:dither="true" android:innerRadius="27dp">
+            <corners android:radius="16dp"/>
+            <solid android:color="@color/medium_violet_red"/>
+        </shape>
+        <bitmap android:src="@drawable/ic_close_24" android:dither="true" android:gravity="center" android:antialias="true"/>
+    </item>
+    <item>
+        <shape android:shape="oval" android:dither="true" android:innerRadius="27dp">
+            <corners android:radius="16dp"/>
+            <solid android:color="#1566e0"/>
+        </shape>
+        <bitmap android:src="@drawable/ic_close_24" android:dither="true" android:gravity="center" android:antialias="true"/>
+    </item>
+</selector>
